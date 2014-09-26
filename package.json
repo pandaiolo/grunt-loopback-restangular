@@ -1,0 +1,64 @@
+{
+  "name": "grunt-loopback-restangular",
+  "description": "Grunt plugin for auto-generating Restangular services for LoopBack",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pandaiolo/grunt-loopback-restangular.git",
+  "authors": [{
+    "name": "StrongLoop, Inc.",
+    "email": "callback@strongloop.com",
+    "url": "http://strongloop.com/"
+  },{
+    "name": "Aurélien Chivot",
+    "email": "aurelien@arimaska.net",
+    "url": "http://arimaska.net/"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pandaiolo/grunt-loopback-restangular.git"
+  },
+  "bugs": {
+    "url": "git://github.com/pandaiolo/grunt-loopback-restangular/issues"
+  },
+  "license": {
+    "name": "MIT",
+    "url": "git://github.com/pandaiolo/grunt-loopback-restangular/blob/master/LICENSE"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.2",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "load-grunt-tasks": "0.x",
+    "time-grunt": "1.x",
+    "loopback": "2.x",
+    "loopback-restangular": "1.x",
+    "loopback-datasource-juggler": "2.x"
+  },
+  "peerDependencies": {
+    "grunt": "0.x"
+  },
+  "keywords": [
+    "gruntplugin",
+    "angular",
+    "restangular",
+    "loopback"
+  ],
+  "maintainers": [
+    {
+      "name": "pandaiolo",
+      "email": "aurelien@arimaska.net"
+    }
+  ],
+  "directories": {}
+}
